@@ -1,0 +1,31 @@
+﻿@model DrawFiveModel
+@{
+    ViewData["Title"] = "Draw Five Cards!";
+}
+@{
+    <form asp_method="post" asp-action="Index" asp-route-id="6z1p8i9rc8kc">
+    <input type="submit" value="Gimmie some cards" />
+</form>
+        foreach (Card c in Model.cards)
+        {
+            <p>@c.value of @c.suit</p>
+            <p> <img height="300px" src="@c.image" /> </p>
+
+        }
+    //<input type="submit" />
+}
+
+
+
+
+
+
+   @* <input type="submit" />
+    if (Model.remaining <= 4)
+    {
+        Model.GetReshuffle();
+    <p></p>
+    else
+    {
+    }
+    }*@

@@ -1,0 +1,24 @@
+﻿@model DrawFiveModel
+@{
+    ViewData["Title"] = "Draw Five";
+}
+<h1>@ViewData["Title"]</h1>
+
+@{
+    <p></p>
+    <input type="submit" />
+    if (Model.remaining <= 4)
+    {
+        //Model.GetReshuffle();
+    }
+    else
+    {
+        foreach (Card c in Model.cards)
+        {
+            <p>@c.value of @c.suit</p>
+            <p> <img height="300px" src="@c.image" /> </p>
+            
+        }
+    }
+
+}

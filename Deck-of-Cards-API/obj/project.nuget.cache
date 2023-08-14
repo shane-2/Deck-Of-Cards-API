@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ktmq0SV+sz91DRvnWPdBMwtnvYIyUjsDM3OQkHjfJNj8J18nMGlkHN9zn5PbpEjbUaPVxZIGMM7o3whmARDNWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shane\\source\\repos\\Deck-of-Cards-API\\Deck-of-Cards-API\\Deck-of-Cards-API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shane\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
